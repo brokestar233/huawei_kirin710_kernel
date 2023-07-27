@@ -4,17 +4,21 @@ Custom Kernel for kirin710
 # how to use it?
 You need an arm64 device running debian sid (raspberry is nice) also,you can chooice an android phone which rooted and that it have a chroot debian (sid)
 in debian shell:
+```shell
 apt install device-tree-compiler build-essential clang bc git -y
 git clone https://github.com/dirt2022/huawei_kirin710_kernel
 cd huawei_kirin710_kernel
 make merge_kirin710_defconfig
 make -j$(nproc)
+```
 
 you will get an Image.gz <and some "ko" files (won't use these)>
 use AIK-Linux : unpack KERNEL.IMG in your device's OTA package (update.app)
  run this:
+ ```shell
  cp Image.gz ./split-img/KERNEL.img-kernel
  ./repackimg.sh
+```
 
 # attention
 the kernel version is 4.9.148
