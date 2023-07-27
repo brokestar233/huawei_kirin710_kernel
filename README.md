@@ -41,3 +41,6 @@ if you can find it but dc-phoneix says the file is not suitable for flash :
 please see this : http://wuyou.net/forum.php?mod=viewthread&tid=436686&extra= (simple chinese)
 
 fastboot flash kernel image-new.img
+
+# thanks
+[https://github.com/](https://github.com/Abdelhay-Ali/android_kernel_huawei_kirin710_KernelSU)https://github.com/Abdelhay-Ali/android_kernel_huawei_kirin710_KernelSU
