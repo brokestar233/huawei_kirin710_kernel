@@ -2,7 +2,9 @@
 Custom Kernel for kirin710
 
 # how to use it?
-You need an arm64 device running debian sid (raspberry is nice) also,you can chooice an android phone which rooted and that it have a chroot debian (sid)
+You need an arm64 device running debian sid (raspberry is nice) 
+
+also,you can chooice an android phone which rooted and that it have a chroot debian (sid)
 in debian shell:
 ```shell
 apt install device-tree-compiler build-essential clang bc git -y
