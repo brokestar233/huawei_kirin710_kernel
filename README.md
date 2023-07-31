@@ -14,7 +14,8 @@ make merge_kirin710_defconfig
 make -j$(nproc)
 ```
 
-you will get an Image.gz <and some "ko" files (won't use these)>
+you will get an Image.gz 
+<and some "ko" files (won't use these)>
 
 use AIK-Linux : unpack KERNEL.IMG in your device's OTA package (update.app)
 
@@ -30,7 +31,7 @@ the kernel version is 4.9.148
 ```markdown
 Selinux is always Permissive,(if you need an secure device,run : make menuconfig , and disable selinux_develop)
 
-(if the option enabled,default for permissive and switch to enforcing mode)
+(if the option enabled,default for permissive and can't switch to enforcing mode)
 
 without KernelSU (you need to flash magisk patched recovery_ramdisk to get root)
 ```
